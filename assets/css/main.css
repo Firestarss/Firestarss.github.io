@@ -2621,7 +2621,7 @@ input, select, textarea {
 					width: 100%;
 					height: 100%;
 					z-index: 1;
-					opacity: 0.5;
+					opacity: .3;
 				}
 
 			.tiles article > a {
@@ -2688,27 +2688,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
-			}
-
-			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
-			}
-
-			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
-			}
-
-			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
-			}
-
-			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
-			}
-
-			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #000000;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2719,12 +2699,11 @@ input, select, textarea {
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.6;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
-					opacity: 0;
+					opacity: 0.6;
 				}
 
 			body:not(.is-touch) .tiles article:hover .content {
