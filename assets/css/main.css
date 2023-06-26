@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 :root {
-	--lightblue: #1080ff;
+	--burntorange: #c50;
 	--background_color: #000000;
 	}
 
@@ -157,12 +157,12 @@ iframe {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: var(--lightblue);
+		color: var(--burntorange);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: var(--lightblue) !important;
+			color: var(--burntorange) !important;
 		}
 
 	strong, b {
@@ -183,6 +183,8 @@ iframe {
 		line-height: 1.3;
 		margin: 0 0 1em 0;
 		letter-spacing: -0.035em;
+		text-align: center;
+		color: var(--burntorange);
 	}
 
 		h1 a {
@@ -2872,7 +2874,7 @@ iframe {
 	}
 
 		#nav a:hover {
-			color: var(--lightblue) !important;
+			color: var(--burntorange) !important;
 		}
 
 /* Container */
