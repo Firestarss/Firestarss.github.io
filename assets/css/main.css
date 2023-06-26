@@ -77,6 +77,13 @@ input, select, textarea {
 	appearance: none;
 }
 
+iframe {
+    margin:auto;
+    display:block;
+	width: 50em;
+	height: 28em;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -150,7 +157,7 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
+		color: var(--lightblue);
 	}
 
 		a:hover {
